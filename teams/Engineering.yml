@@ -37,11 +37,11 @@ controls:
 team_settings:
   webhook_settings:
     failing_policies_webhook:
-    enable_failing_policies_webhook: true
-    destination_url: https://webhook.site/#!/view/4296357c-c44f-405f-9fe8-b9a621200270/1a44904e-5ad2-4550-974e-45b720ee72bb/1
-    host_batch_size: 0
-    policy_ids:
-      -54
+      enable_failing_policies_webhook: true
+      destination_url: https://webhook.site/#!/view/4296357c-c44f-405f-9fe8-b9a621200270/1a44904e-5ad2-4550-974e-45b720ee72bb/1
+      host_batch_size: 0
+      policy_ids:
+        - 54
   secrets:
     - secret: "$FLEET_ENGINEERING_ENROLL_SECRET"
   features:
